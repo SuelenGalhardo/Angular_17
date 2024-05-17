@@ -5,8 +5,18 @@
 
 @if (isLoggedIn) {
 <p class="paragraph">Bienvenida {{ username }}</p>
+
+<img (click)="greet()"
+ src="https://github.com/SuelenGalhardo.png" alt="photo">
+ <button  (click)="isLoggedIn = false" >volver</button>
+
 } @else {
 <p class="paragraph">Inicia sesión!</p>
+<button (click)="isLoggedIn = true" >Login</button>
+
 }
 
+<div>
+
+</div>
 </section>
