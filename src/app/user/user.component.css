@@ -1,0 +1,15 @@
+
+section {
+
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 32px;
+}
+
+.paragraph {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+    text-align: center;
+
+margin-top: 50px;
+}
